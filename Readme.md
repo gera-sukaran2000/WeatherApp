@@ -25,3 +25,13 @@ Debouncing --> Deboucing has also been implemented in LocationInput Component
 DarkMode
 ---> Appearence From React Native is used to get the user device appearence
 for implmenting dark and light themes
+
+
+To run the project
+------------------------
+
+Run npm i and make 2 api keys form VisualCrossing Weather Api and 
+Geofy API and add it as 2 keys .env file as API_KEY, GEOAPIFY_KEY
+
+Then to run the project just run npm start and use expo-go or build it using android 
+studio or xcode
