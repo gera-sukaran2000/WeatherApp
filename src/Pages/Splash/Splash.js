@@ -9,9 +9,9 @@ const Splash = ({ navigation }) => {
   const sv1 = useSharedValue(100);
   useEffect(() => {
     sv1.value = withTiming(0, { duration: 1000 });
-    // setTimeout(() => {
-    //   navigation.dispatch(StackActions.replace("Main"));
-    // }, 1500);
+    setTimeout(() => {
+      navigation.dispatch(StackActions.replace("Main"));
+    }, 1500);
   }, []);
 
   return (
